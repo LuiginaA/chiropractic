@@ -33,8 +33,8 @@
 
 #logo {
     height: 150px;
-    max-width: 100%;
-    border-radius: 50%;
+    width: 200px;
+    border-radius: 100%;
 }
 
 
@@ -220,11 +220,11 @@
 .hero__heading {
     font-size: 40px;
     margin-bottom: 24px;
-    color: #fff;
+    color: #3f2c21;
 }
 
 .hero__heading span {
-    background: #131313;  /* fallback for old browsers */
+    background: #dcd2c3;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #dcd2c3, #634533);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #dcd2c3, #634533); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: 100%;
@@ -236,7 +236,7 @@
 
 .hero__description {
     font-size: 40px;
-    background: #634533;  /* fallback for old browsers */
+    background: rgb(235, 27, 27);  fallback for old browsers
     background: -webkit-linear-gradient(to right, #dcd2c3, #634533);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #dcd2c3, #634533); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: 100%;
@@ -300,8 +300,8 @@
 
 .main__content h2 {
     font-size: 4rem;
-    background: #603813;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
+    background: #3f2c21;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #603813, #3f2c21);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: 100%;
     -webkit-background-clip: text;
@@ -480,7 +480,7 @@
     margin: 10px;
     height: 425px;
     width: 300px;
-    border-radius: 4px;
+    border-radius: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -512,7 +512,7 @@
 .services__card p {
     text-align: center;
     margin-top: 24px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .services__btn {
