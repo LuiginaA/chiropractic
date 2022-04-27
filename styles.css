@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family:'Kumbh Sans', cursive;
+    font-family: sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -380,12 +380,10 @@
     margin: 10px;
     height: 500px;
     width: 500px;
-    border-radius: 4px;
+    border-radius: 4%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #fff;
-    background-image: linear-gradient(to right, #634533, #e6dfd3, #d1c7b8 100%);
 }
 
 #card-2 {
