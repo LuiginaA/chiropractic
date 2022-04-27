@@ -43,8 +43,6 @@
     background: -webkit-linear-gradient(to right, #b29f94, #E5DBCC);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #b29f94, #E5DBCC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: cover;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     display: flex;
@@ -239,7 +237,7 @@
 
 .hero__heading span {
     background: #E7DCCD ;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #E7DCCD, #7b5838);  /* Chrome 10-25, Safari 5.1-6 */
+    background-clip: -webkit-linear-gradient(to right, #E7DCCD, #7b5838);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right,#E7DCCD , #7b5838); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: 100%;
     -webkit-background-clip: text;
@@ -252,14 +250,12 @@
     font-size: 40px;
     background: #B99873;  
     background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
 
 .highlight {
-    border-bottom: 4px solid #;
+    border-bottom: 4px solid;
 }
 
 @media screen and (max-width: 768px) {
@@ -302,8 +298,6 @@
     background: -webkit-linear-gradient(to right, #b29f94, #B99873,);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #b29f94, #B99873); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     text-transform: uppercase;
@@ -316,8 +310,6 @@
     background: -webkit-linear-gradient(to right, #b29f94,  #B99873);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #b29f94, #B99873); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
@@ -458,7 +450,7 @@
 
 /* Services Section*/
 .services {
-    background: #e6dfd3
+    background: #e6dfd3;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -472,8 +464,6 @@
     background: -webkit-linear-gradient(to right, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: cover;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;  
     margin-bottom: 5rem;
