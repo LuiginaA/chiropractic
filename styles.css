@@ -10,7 +10,6 @@
     /* background:	#B99873;	 */
     background: #EDE1CE;
     background: linear-gradient(to right, #d1c7b8, #EDE1CE,);
-    
     height: 160px;
     display: flex;
     justify-content: center;
@@ -42,6 +41,8 @@
     background-color: #E5DBCC;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #b29f94, #E5DBCC);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #b29f94, #E5DBCC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     background-size: cover;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
@@ -63,7 +64,7 @@
 }
 
 .navbar__links {
-    color:  #3f2c21;
+    color:  #7b5838;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,7 +95,7 @@
     background: #E5DBCC;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #b29f94, #B99873);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #b29f94, #B99873); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
-    color: #fff;   
+    color: #f2e8e3;   
     transition: all 0.3s ease;
 }
 
@@ -168,7 +169,7 @@
     justify-content: center;
     align-items: center;
     width: 80%;
-    height: 80%;
+    height: 80px;
     margin: 0;
     }
 
@@ -203,6 +204,7 @@
     padding: 200px 0;
 
 }
+
 .hero__container {
     display: flex;
     flex-direction: column;
@@ -250,12 +252,14 @@
     font-size: 40px;
     background: #B99873;  
     background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
 
 .highlight {
-    border-bottom: 4px solid;
+    border-bottom: 4px solid rgb(132, 0, 255);
 }
 
 @media screen and (max-width: 768px) {
@@ -298,6 +302,8 @@
     background: -webkit-linear-gradient(to right, #b29f94, #B99873,);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #b29f94, #B99873); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     text-transform: uppercase;
@@ -310,6 +316,8 @@
     background: -webkit-linear-gradient(to right, #b29f94,  #B99873);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #b29f94, #B99873); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
@@ -322,9 +330,9 @@
 
 .main__btn {
     font-size: 1.8rem;
-    background: #8F7361;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #b29f94, #8F7361);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #b29f94, #8F7361); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    background: #E5DBCC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b29f94, #B99873);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b29f94, #B99873); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     padding: 20px 60px;
     border: none;
     border-radius: 4px;
@@ -338,7 +346,7 @@
 .main__btn a {
     position: relative;
     z-index: 2;
-    color: #C1AA8B;
+    color: #f2e8e3;
     text-decoration: none;
 }
 
@@ -355,7 +363,7 @@
 }
 
 .main__btn:hover {
-    color: #fff;
+    color: #f2e8e3;
 }
 
 .main__btn:hover:after {
@@ -464,6 +472,8 @@
     background: -webkit-linear-gradient(to right, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: cover;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;  
     margin-bottom: 5rem;
@@ -484,7 +494,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: fff;
     background-image: linear-gradient(to right, #c1c161 0%, #c1c161 0%, #d4d4b1 100%);
     transition: 0.3s ease-in;
 }
