@@ -8,8 +8,8 @@
 
 .navbar {
     /* background:	#B99873;	 */
-    background: #95978a;
-    background: linear-gradient(to right, #95978a, #7b5838);
+    background: #EDE1CE;
+    background: linear-gradient(to right, #d1c7b8, #EDE1CE,);
     
     height: 160px;
     display: flex;
@@ -39,9 +39,9 @@
 
 
 #navbar__logo { 
-    background-color: #3f2c21;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    background-color: #E5DBCC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b29f94, #E5DBCC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b29f94, #E5DBCC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: cover;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -93,15 +93,15 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #4f3729;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #b29f94, #634533);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #b29f94, #634533); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    background: #E5DBCC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b29f94, #B99873);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b29f94, #B99873); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     color: #fff;   
     transition: all 0.3s ease;
 }
 
 .navbar__links:hover {
-    color: #95978a;
+    color: #B99873;
     transition: all 0.3s ease;
 }   
 
@@ -201,7 +201,7 @@
 /* Hero Section */
 .hero {
     background: #EDE1CE;
-    background: linear-gradient(to right, #EDE1CE, #7b5838);
+    background: linear-gradient(to right, #d1c7b8, #EDE1CE);
     padding: 200px 0;
 
 }
@@ -234,13 +234,13 @@
 .hero__heading {
     font-size: 40px;
     margin-bottom: 24px;
-    color: #3f2c21;
+    color: #C1AA8B;
 }
 
 .hero__heading span {
-    background: #dcd2c3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #dcd2c3, #634533);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #dcd2c3, #634533); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    background: #E7DCCD ;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E7DCCD, #7b5838);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#E7DCCD , #7b5838); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -250,9 +250,7 @@
 
 .hero__description {
     font-size: 40px;
-    background: rgb(235, 27, 27);  fallback for old browsers
-    background: -webkit-linear-gradient(to right, #dcd2c3, #634533);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #dcd2c3, #634533); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    background: #B99873;  
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -276,7 +274,7 @@
 
 /* About Section */
 .main {
-    background-color: #EDE1CE;
+    background-color: #DFD9D2;
     padding: 10rem 0;
 }
 
@@ -300,9 +298,9 @@
 
 .main__content h1 {
     font-size: 2rem;
-    background-color: #603813;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    background-color: #7b5838;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b29f94, #B99873,);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b29f94, #B99873); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -313,10 +311,10 @@
 }
 
 .main__content h2 {
-    font-size: 4rem;
-    background: #3f2c21;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #603813, #3f2c21);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    font-size: 2rem;
+    background: #7b5838;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b29f94,  #B99873);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b29f94, #B99873); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -332,9 +330,9 @@
 
 .main__btn {
     font-size: 1.8rem;
-    background: #4f3729;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #b29f94, #634533);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #b29f94, #634533); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    background: #8F7361;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b29f94, #8F7361);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b29f94, #8F7361); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     padding: 20px 60px;
     border: none;
     border-radius: 4px;
@@ -348,7 +346,7 @@
 .main__btn a {
     position: relative;
     z-index: 2;
-    color: #3f2c21;
+    color: #C1AA8B;
     text-decoration: none;
 }
 
@@ -387,9 +385,9 @@
 }
 
 #card-2 {
-    background: #EDE1CE;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #979083, #979083);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #b29f94, #01554f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    background: #DFD9D2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DFD9D2, #979083);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DFD9D2 #b29f94,); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
 }
 
 @media screen and (max-width: 1100px) {
@@ -460,7 +458,7 @@
 
 /* Services Section*/
 .services {
-    background: #EDE1CE;
+    background: #e6dfd3
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -568,7 +566,7 @@
 /* Footer CSS */
 
 .footer__container {
-    background-color: #716354;
+    background-color: #e6dccd;
     padding: 5rem 0;
     display: flex;
     flex-direction: column;
@@ -577,7 +575,7 @@
 }
 
 #footer__logo {
-    color: #EDE1CE;
+    color: #9D8063;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -608,11 +606,11 @@
 
 .footer__link--items h2 {
 margin-bottom: 16px;
-color: #EDE1CE;
+color: #9D8063;
 }
 
 .footer__link--items a {
-    color: #EDE1CE;
+    color: #C9B29C;
     text-decoration: none;
     margin-bottom: 0.5rem;
 }
@@ -623,7 +621,7 @@ transition: 0.3 ease-out;
 }
 
 .social__icon--link {
-    color: #EDE1CE;
+    color: #C9B29C;
     font-size: 24px;
 }
 
@@ -649,7 +647,7 @@ transition: 0.3 ease-out;
 }
 
 .website__rights {
-color: #EDE1CE;
+color: #C9B29C;
 }
 
 
