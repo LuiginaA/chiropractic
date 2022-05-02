@@ -29,8 +29,8 @@
 }
 
 #logo {
-    height: 150px;
-    width: 200px;
+    height: 275px;
+    width: 375px;
     border-radius: 100%;
 }
 
@@ -117,7 +117,7 @@
         height: 3px;
         margin: 5px auto;
         transition: all 0.3s ease-in-out;
-        background: #fff;
+        background: #7b5838;
     }
 
     .navbar__item {
@@ -192,6 +192,7 @@
 
 .hero__heading {
     font-size: 40px;
+    font-family: cursive;
     margin-bottom: 46px;
     color: #7b5838;
 }
@@ -241,15 +242,13 @@
 }
 
 .main__content {
-    color: #fff;
+    color:#7b5838 ;
     width: 100%;
 }
 
 .main__content h1 {
     font-size: 2rem;
-    background-color: #7b5838;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #b29f94, #B99873,);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #b29f94, #B99873); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    background-color: #7b5838;  
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -410,33 +409,31 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 35%;
     padding: 10rem 0;
     }
 
 .services h1 {
-    background-color: #603813; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #b29f94, #603813);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #b29f94, #603813); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    background-color: #603813; 
     background-size: cover;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;  
     margin-bottom: 5rem;
-    font-size: 2.5rem;
+    font-size: 1rem;
     }
 
 .services__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     }
 
 .services__card {
     margin: 10px;
-    height: 425px;
-    width: 300px;
+    height: 100px;
+    width: 150px;
     border-radius: 50px;
     display: flex;
     flex-direction: column;
@@ -445,15 +442,15 @@
     transition: 0.3s ease-in;
 }
 
-.services__card:nth-last-child(1) {
+.services__card:nth-last-child(1,4,7) {
     background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }
 
-.services__card:nth-last-child(2) {
+.services__card:nth-last-child(2,5,8) {
     background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%); 
 }
 
-.services__card:nth-last-child(3) {
+.services__card:nth-last-child(3,6,9) {
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);     
 }
 
@@ -467,8 +464,8 @@
 
 .services__card p {
     text-align: center;
-    margin-top: 24px;
-    font-size: 15px;
+    margin-top: 10px;
+    font-size: 16px;
 }
 
 .services__btn {
@@ -521,7 +518,11 @@
 }
 
 #footer__logo {
-    color: #9D8063;
+    height: 50%;
+    width: 100%;
+    border-radius: 100%;
+   
+    color: #FDF6EC;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -550,19 +551,20 @@
     box-sizing: border-box;
 }
 
-.footer__link--items h2 {
+.footer__link--items h5 {
 margin-bottom: 16px;
 color: #9D8063;
 }
 
 .footer__link--items a {
-    color: #C9B29C;
+    color: #AD8B73;
     text-decoration: none;
     margin-bottom: 0.5rem;
+    transition: 0.3 ease-out;
 }
    
 .footer__link--items a:hover {
-color: #e9e9e9e9;
+color: #AD8B73;
 transition: 0.3 ease-out;
 }
 
@@ -571,7 +573,7 @@ transition: 0.3 ease-out;
     font-size: 24px;
 }
 
-.social__mdeia {
+.social__media {
     max-width: 1000px;
     width: 100%;
 }
@@ -587,13 +589,14 @@ transition: 0.3 ease-out;
 
 .social__icons {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 240px;
 }
 
 .website__rights {
-color: #C9B29C;
+color: #7b5838
+
 }
 
 
@@ -606,6 +609,7 @@ color: #C9B29C;
     }
     
     .website__rights {
+        
         margin-bottom: 2rem;
     }
 
