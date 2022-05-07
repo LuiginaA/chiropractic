@@ -223,7 +223,7 @@
 
 /* About Section */
 .main__container {
-    background-color: #DFD9D2;
+    background-color: #FBF8F1;
     padding: 10rem 0;  
     width: 100%;
     height: 500%;
@@ -240,7 +240,7 @@
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10rem;
@@ -255,8 +255,46 @@
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+    -moz-text-fill-color: transparent; 
 }
+
+/* Information Section */
+.main__container {
+    background-color: #F7F5EE;
+    padding: 10rem 0;  
+    width: 100%;
+    height: 500%;
+}
+
+.main__content {
+    width: 100%;
+}
+
+.main__content h1 {
+    font-size: 4rem;
+    background-color: #7b5838;  
+    background-size: cover;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10rem;
+    font-size: 4rem;
+}
+
+.main__content h2 {
+    font-size: 2rem;
+    align-items: center;
+    background: #7b5838;  
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent; 
+}
+
 
 /* Services Section */
 .services__container {
@@ -561,12 +599,12 @@
     }
 } 
 
-/* Footer CSS */
+/* Footer CSS */  
 .footer__container {
     background-color: #e6dccd;
     padding: 5rem 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
 }
