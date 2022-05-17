@@ -710,7 +710,7 @@ h2 {
 }  */
 
 /* Footer CSS */  
-.footer__container {
+.container-fluid {
     background-color: #e6dccd;
   
 }
