@@ -249,6 +249,7 @@ h2 {
 }
 
 
+
 @media screen and (max-width: 768px) {
     .hero__heading {
         font-size: 60px;
@@ -514,7 +515,7 @@ h2 {
 
 
 
-} */
+
 
 /* @media screen and (max-width: 1300px) {
 .services__wrapper {
