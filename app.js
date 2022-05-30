@@ -13,13 +13,13 @@ menu.addEventListener('click', mobileMenu);
 
 //Show active menu when scrolling
 const highlightMenu = () => {
-  const elem = document.querySelector('highlight');
+  const elem = document.querySelector('#highlight');
   const homeMenu = document.querySelector('#home-page');
   const aboutMenu = document.querySelector('#about-page');
-  const whyChooseDrJaniqueMenu = document.querySelector('why-choose-dr-janique-page');
-  const howCanIHelpMenu = document.querySelector('how-can-i-help-page');
-  const whoCanITreatMenu = document.querySelector('who-can-i-treat-page');
-  const faqMenu = document.querySelector('faq-page');
+  const whyChooseDrJaniqueMenu = document.querySelector('#why-choose-dr-janique-page');
+  const howCanIHelpMenu = document.querySelector('#how-can-i-help-page');
+  const whoCanITreatMenu = document.querySelector('#who-can-i-treat-page');
+  const faqMenu = document.querySelector('#faq-page');
   let scrollPos = window.scrollY;
   console.group(scrollPos);
 
