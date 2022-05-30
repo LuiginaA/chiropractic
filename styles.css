@@ -398,6 +398,15 @@ h2 {
 
 /* Information Section */
 
+
+#information__heading {
+    margin: 20px 0;
+    text-align: center;
+    font-family: "Arial, Helvetica, sans-serif";
+    font-size: 40px;
+}
+
+
 #information {
     height: 100vh;
     border-radius: 15%;
@@ -420,8 +429,57 @@ h2 {
     margin: 4.6px;
 }
 
-#information-btn {
+.info-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0, .5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s transform 0.25s;
    
+}
+
+.info-modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #cccccc;
+    padding: 1rem, 1.5rem;
+    width: 24rem;
+    border-radius: 0.5rem;
+
+}
+
+.info-close-button {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: #b29f94;
+}
+
+
+.info-close-button:hover {
+    background-color: #b29f94;
+}
+
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+
+
+/* .info-btn {
    background-color: #dcd2c3;
    position: relative;
    padding-top: 1rem;
@@ -431,14 +489,192 @@ h2 {
 
 }
 
-#information__heading h1 div{
+.info-modal-content p {
+     color: yellow;
+}  
+
+ .info-modal {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 800px;
+    width: 50%;
+    background-color: rgba(0,0,0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-window {
+    position: relative;
+    background-color: white;
+    padding: 4em 2em;
+}
+
+.modal-close {
+    position: absolute;
+    top: -30px;
+    right: 0;
+
+}
+
+.modal:not(:target) {
+    visibility: hidden;
+    opacity: 0;
+} 
+ */
+
+/* #information__heading h1 div{
     font-size: 50px;
     font-family: "Arial, Helvetica, sans-serif";
     text-align: right;
     color: #cccccc;
     padding: 20px 50px;
+    } */
+    
+
+/* Overview Section */
+
+
+#overview {
+    height: 700px;
+    width: 100%;
+    margin: 20px;
+}
+
+#welcome {
+    margin: 30px 0;
+    text-align: center;
+    font-family: "Arial, Helvetica, sans-serif";
+    font-size: 40px;
+} 
+
+.left-view .column {
+    padding-top: 30px;
+    padding-right: 10px;  
+    
+}
+
+#left-view-img {
+    padding: 10px;  
+}
+
+.images {
+    background: url("images/office.jpg") no-repeat center;
+    height: 90vh;
+    width: 55vw;
+    border-radius: 25px;
+}
+ 
+.right-view .column {
+    padding-top: 30px;
+    padding-right: 10px; 
+       
+}
+
+
+.right-view {
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 100%;
+    height: 100%; 
+    text-align: left; 
+} 
+
+.right-view h2 {
+    text-align: left;
+    justify-content: left;
+}
+
+.right-view p {
+    text-align: left; 
+}
+
+.right-view-heading a {
+    width: 100%; 
+   
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 30px;
+}
+
+.right-view-heading a h2 {
+    text-align: center;
+}
+
+.right-view p {
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+  
+    
+    @media screen and (max-width: 1393px) {
+        #about {
+            width: 65%;
+            height: 1200px;
+            margin: 0 auto;
+        }
+    
+        #intro {
+            padding: 30px 0;
+            margin-top: 0;
+        }
+        
+        #left-about, #right-about {
+            width: 100%;
+            float: left;
+            padding: 0;
+        }
+    
+        .left-about-heading, .right-about-heading h2 {
+            width: inherit;
+        } 
+    
+        .left-about-heading, .right-about-heading p {
+            width: 100%;
+            float: left;
+            padding: 0;
+        }
+    
+        #centre-overview { 
+            clear: both;
+            width: 100%;
+            float: left;
+            padding: 0;
     }
     
+        #img-container {
+            clear: both;
+            width: 100%;
+            float: left;
+            padding: 0;
+        }
+    
+    }
+
+  
+    
+
+
+
+
 
 /* Services Section */
 
@@ -779,9 +1015,9 @@ h2 {
 
 
 
-* {
+/* * {
     box-sizing: border-box;
-  }
+  } */
   
   /* Style inputs */
   input[type=text], select, textarea {
@@ -815,7 +1051,7 @@ h2 {
     padding: 10px;
   }
   
-  /* Create two columns that float next to eachother */
+  /* Create two columns that float next to each other */
   .column {
     float: left;
     width: 33%;
@@ -830,7 +1066,8 @@ h2 {
     clear: both;
   }
   
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other 
+
   @media screen and (max-width: 600px) {
     .column, input[type=submit] {
       width: 100%;
