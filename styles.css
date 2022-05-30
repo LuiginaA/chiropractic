@@ -549,31 +549,31 @@ h2 {
     font-size: 40px;
 } 
 
-.left-view .column {
+.left-view-column {
     padding-top: 30px;
     padding-right: 10px;  
     
 }
 
-#left-view-img {
-    padding: 10px;  
-}
-
-.images {
+.left-view-images {
     background: url("images/office.jpg") no-repeat center;
     height: 90vh;
     width: 55vw;
     border-radius: 25px;
 }
  
-.right-view .column {
+#left-view-images {
+    padding: 10px;  
+}
+
+.right-view-column {
     padding-top: 30px;
     padding-right: 10px; 
        
 }
 
 
-.right-view {
+.right-view-column-heading {
     padding-top: 30px;
     padding-left: 20px;
     width: 100%;
@@ -581,28 +581,27 @@ h2 {
     text-align: left; 
 } 
 
-.right-view h2 {
+.right-view-column-heading h2 {
     text-align: left;
     justify-content: left;
 }
 
-.right-view p {
+.right-view-column-heading p {
     text-align: left; 
 }
 
-.right-view-heading a {
+.right-view-column-heading a {
     width: 100%; 
-   
     line-height: 20px;
     clear: both;
     margin-bottom: 30px;
 }
 
-.right-view-heading a h2 {
+.right-view-column-heading a h2 {
     text-align: center;
 }
 
-.right-view p {
+.right-view-column-heading p {
     text-align: left;
 }
 
