@@ -429,6 +429,10 @@ h2 {
     margin: 4.6px;
 }
 
+
+.btn-cream {
+background-color: #DFD9D2;
+}
 .info-modal {
     position: fixed;
     top: 0;
@@ -535,7 +539,6 @@ h2 {
 
 /* Overview Section */
 
-
 #overview {
     height: 700px;
     width: 100%;
@@ -549,16 +552,11 @@ h2 {
     font-size: 40px;
 } 
 
-.left-view-column {
-    padding-top: 30px;
-    padding-right: 10px;  
-    
-}
-
-.left-view-images {
+#overview-image {
     background: url("images/office.jpg") no-repeat center;
-    height: 90vh;
-    width: 55vw;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
     border-radius: 25px;
 }
  
