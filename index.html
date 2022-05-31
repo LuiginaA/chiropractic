@@ -35,7 +35,8 @@
                         <a href="#about" class="navbar__links" id="about-page">Get To Know Dr Janique</a>
                     </li>
                     <li class="navbar__item">
-                        <a href="#how-can-i-help" class="navbar__links" id="how-can-i-help"> How Can I Help You?</a>
+                        <a href="#information__heading" class="navbar__links" id="information__heading"> How Can I Help
+                            You?</a>
                     </li>
                     <li class="navbar__item">
                         <a href="#why-choose-dr-janique" class="navbar__links" id="why-choose-dr-janque">Why Choose Dr
@@ -153,34 +154,22 @@
     <section id="information">
         <div class="info-container">
             <h6> What is a Chiropractor?</h6>
-            <button onclick="document.getElementById('id01').style.display='block'" class="info-button info-black">Read
-                More</button>
-            <div id="id01" class="info-modal">
-                <div class="info-modal-content">
-                    <div class="info-container">
-                        <span onclick="document.getElementById('id01').style.display='none'"
-                            class="info-button info-display-topright">&times;</span>
-                        <p>Some text. Some text. Some text.</p>
-                        <p>Some text. Some text. Some text.</p>
-                    </div>
-                </div>
-            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#what-is-a-chiro">
+                Read More
+            </button>
         </div>
+
+
+
         <div class="info-container">
             <h6> What does a Chiropractor do?</h6>
-            <button onclick="document.getElementById('id01').style.display='block'" class="info-button info-black">Read
-                More</button>
-            <div id="id01" class="info-modal">
-                <div class="info-modal-content">
-                    <div class="info-container">
-                        <span onclick="document.getElementById('id01').style.display='none'"
-                            class="info-button info-display-topright">&times;</span>
-                        <p>Some text. Some text. Some text.</p>
-                        <p>Some text. Some text. Some text.</p>
-                    </div>
-                </div>
-            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-cream" data-toggle="modal" data-target="#exampleModal">
+                Read More
+            </button>
         </div>
+
         <div class="info-container">
             <h6> What is a Chiropractic Adjustment?</h6>
             <button onclick="document.getElementById('id01').style.display='block'" class="info-button info-black">Read
@@ -261,58 +250,55 @@
     <!-- Overview Section -->
 
     <section class="container-fluid" id="overview">
-        <h2 id="welcome"> Why Choose Dr Janique? </h2>
-        <div id="left-view-img">
-            <div class="row">
-                <div class="col-sm-9">
-                    <div class="left-view-images" img id="left-view-images" src="images/office.jpg"
-                        alt="Our Consulting Rooms">
-                    </div>
-                </div>
+        <div class="row">
+            <div class="col">
+                <h2 id="welcome"> Why Choose Dr Janique? </h2>
             </div>
-            <div class="right-view">
-                <div class="row">
-                    <div class="col-sm-3">
-                        <h2> What Makes Us Different? </h2>
-                        <p>
-                        <ul>
-                            <li>
-                                Drug Free Techniques &ndash; No need for medication, it is proven that chiropractic care
-                                reduces
-                                the use of
-                                medications.
-                            </li>
-                            <li>
-                                For all Complaints &ndash; Unsure of who to see and why? Chiropractic care can help an
-                                array
-                                of
-                                symptoms and conditions and has drastically improved patients quality of life and
-                                well-being.
-                            </li>
-                            <li>
-                                Medical Aid &ndash; Cashed based practice but fees are within medical aid rates.
-                            </li>
-                            <li>
-                                Non-Invasive &ndash; Chiropractic is free of surgery, incisions or removal of tissue and
-                                is
-                                holistic in its care.
-                            </li>
-                            <li>
-                                Safe &ndash; Chiropractic is safe and for the whole family including babies, pregnant
-                                women,
-                                elderly
-                                and teenagers.
-                            </li>
-                        </ul>
-                        </p>
-                        <div class="right-view-heading a">
-                            <h2> Blog</h2>
-                            <p>
-                                Feel free to check our Blog for more interesting information and healthy tips.
-                            </p>
-                            <button type="button" class="btn btn-primary btn-sm"> Read More </button>
-                        </div>
-                    </div>
+        </div>
+
+        <div class="row justify-content-around">
+            <div class="col-sm-6">
+                <div id="overview-image"></div>
+            </div>
+            <div class="col-sm-4">
+                <h2> What Makes Us Different? </h2>
+                <p>
+                <ul>
+                    <li>
+                        Drug Free Techniques &ndash; No need for medication, it is proven that chiropractic care
+                        reduces
+                        the use of
+                        medications.
+                    </li>
+                    <li>
+                        For all Complaints &ndash; Unsure of who to see and why? Chiropractic care can help an
+                        array
+                        of
+                        symptoms and conditions and has drastically improved patients quality of life and
+                        well-being.
+                    </li>
+                    <li>
+                        Medical Aid &ndash; Cashed based practice but fees are within medical aid rates.
+                    </li>
+                    <li>
+                        Non-Invasive &ndash; Chiropractic is free of surgery, incisions or removal of tissue and
+                        is
+                        holistic in its care.
+                    </li>
+                    <li>
+                        Safe &ndash; Chiropractic is safe and for the whole family including babies, pregnant
+                        women,
+                        elderly
+                        and teenagers.
+                    </li>
+                </ul>
+                </p>
+                <div class="right-view-heading a">
+                    <h2> Blog</h2>
+                    <p>
+                        Feel free to check our Blog for more interesting information and healthy tips.
+                    </p>
+                    <button type="button" class="btn btn-primary btn-sm"> Read More </button>
                 </div>
             </div>
         </div>
@@ -452,6 +438,29 @@
             <div class="col-3 web__design">Made with <i class=" fa fa-heart "></i> by Luigina Argentin</div>
         </div>
     </footer>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="what-is-a-chiro" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"> What is a Chiropractor? </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>this is where the text goes</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
